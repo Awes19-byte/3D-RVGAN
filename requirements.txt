@@ -1,0 +1,5 @@
+tensorflow
+nibabel==4.0.2
+pillow
+numpy
+scipy
