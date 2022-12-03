@@ -49,12 +49,11 @@ https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
 ### NPZ file conversion
 - Convert all the images to npz format using **convert_npz_DRIVE.py**, **convert_npz_STARE.py** or **convert_npz_CHASE.py** file. 
 ```
-python3 convert_npz_DRIVE.py --input_dim=(128,128,128) --outfile_name='DRIVE'
+python3 convert_npz_DRIVE.py --input_dim=(64,64,64) --outfile_name='DRIVE'
 ```
 - There are different flags to choose from. Not all of them are mandatory.
 ```
-    '--input_dim', type=int, default=(128,128,128)
-    '--n_crops', type=int, default=210
+    '--input_dim', type=int, default=(64,64,64)
     '--outfile_name', type=str, default='DRIVE'
 ```
 
@@ -69,7 +68,7 @@ python3 train.py --npz_file=DRIVE --batch=4 --epochs=200 --savedir=RVGAN --resum
 ```
    '--npz_file', type=str, default='DRIVE.npz', help='path/to/npz/file'
    '--batch_size', type=int, default=24
-   '--input_dim', type=int, default=128
+   '--input_dim', type=int, default=64
    '--epochs', type=int, default=200
    '--savedir', type=str, required=False, help='path/to/save_directory',default='RVGAN'
    '--resume_training', type=str, required=False,  default='no', choices=['yes','no']
