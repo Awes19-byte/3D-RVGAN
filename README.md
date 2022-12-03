@@ -1,11 +1,6 @@
 # 3D RVGAN
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rv-gan-retinal-vessel-segmentation-from/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=rv-gan-retinal-vessel-segmentation-from)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rv-gan-retinal-vessel-segmentation-from/retinal-vessel-segmentation-on-chase_db1)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-chase_db1?p=rv-gan-retinal-vessel-segmentation-from)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rv-gan-retinal-vessel-segmentation-from/retinal-vessel-segmentation-on-stare)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-stare?p=rv-gan-retinal-vessel-segmentation-from)
-
-
-This code is for our paper "RV-GAN: Segmenting Retinal Vascular Structure inFundus Photographs using a Novel Multi-scaleGenerative Adversarial Network" which is part of the supplementary materials for MICCAI 2021 conference. The paper has since been accpeted and presented at MICCAI 2021.
+This code is modified version of the official "RV-GAN: Segmenting Retinal Vascular Structure inFundus Photographs using a Novel Multi-scaleGenerative Adversarial Network" which is part of the supplementary materials for MICCAI 2021 conference. This version dedicated for Brain Tumor Segmentation from 3D images.
 
 ![](img1.png)
 
@@ -13,24 +8,12 @@ This code is for our paper "RV-GAN: Segmenting Retinal Vascular Structure inFund
 ```
 https://arxiv.org/pdf/2101.00535v2.pdf
 ```
-### Springer
-```
-https://link.springer.com/chapter/10.1007/978-3-030-87237-3_4
-```
-
-
 
 
 
 ## Pre-requisite
 - Ubuntu 18.04 / Windows 7 or later
 - NVIDIA Graphics card
-
-## Current branch is for Tensorflow 2.0-gpu version
-## For Tensorflow 2.6-gpu version check the following branch
-```
-https://github.com/SharifAmit/RVGAN/tree/tf-2.6
-```
 
 ## Installation Instruction for Ubuntu
 - Download and Install [Nvidia Drivers](https://www.nvidia.com/Download/driverResults.aspx/142567/en-us)
