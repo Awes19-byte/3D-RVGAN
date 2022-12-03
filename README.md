@@ -1,6 +1,6 @@
 # 3D RVGAN
 
-This code is modified version of the official "RV-GAN: Segmenting Retinal Vascular Structure inFundus Photographs using a Novel Multi-scaleGenerative Adversarial Network" which is part of the supplementary materials for MICCAI 2021 conference. This version dedicated for Brain Tumor Segmentation from 3D images.
+This code is modified version of the official "[RV-GAN](https://github.com/SharifAmit/RVGAN): Segmenting Retinal Vascular Structure inFundus Photographs using a Novel Multi-scaleGenerative Adversarial Network" which is part of the supplementary materials for MICCAI 2021 conference. This version dedicated for Brain Tumor Segmentation from 3D images.
 
 ![](img1.png)
 
